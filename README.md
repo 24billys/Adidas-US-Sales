@@ -27,7 +27,7 @@ During the analysis, I sought answers to the following questions:
 
 ### Seasonal Analysis
  - Are there seasonal trends in sales related to festivals or holidays? (Tableau)
- - How do seasonal trends affect various product categories? (Tableau)
+
 
 ### Profitability Analysis
  - What is the profit margin for different products or categories? (SQL)
