@@ -13,7 +13,7 @@ SELECT DATENAME(YEAR, [Invoice Date]) AS 'YEAR',SUM ([Total Sales]) AS [Total Re
 FROM dbo.Kaggle_Adidas_US_Sale
 GROUP BY DATENAME(YEAR, [Invoice Date])
 ``` 
-
+![Result Cap/S1.PNG](https://github.com/24billys/Adidas-US-Sales/blob/main/Exploratory%20Data%20Analysis%20(SQL)/Result%20Cap/S1.PNG)
 
 #### What are the top5 product over year?
 
@@ -33,7 +33,10 @@ FROM dbo.Kaggle_Adidas_US_Sale
 WHERE DATENAME(YEAR, [Invoice Date]) = 2021
 GROUP BY [Product]
 ORDER BY SUM ([Total Sales]) DESC
-``` 
+```
+![Result Cap/S2.PNG](https://github.com/24billys/Adidas-US-Sales/blob/main/Exploratory%20Data%20Analysis%20(SQL)/Result%20Cap/S2.PNG)
+
+
 #### What is the average daily sales value by retailer?
 ```sql
 --2020
@@ -51,7 +54,7 @@ GROUP BY [Retailer]
 ORDER BY AVG ([Total Sales]) DESC
 
 ```
-
+![Result Cap/S3.PNG](https://github.com/24billys/Adidas-US-Sales/blob/main/Exploratory%20Data%20Analysis%20(SQL)/Result%20Cap/S3.PNG)
 ### Customer Analysis
 
 #### What are the top region/ state/ city for sales?
@@ -82,6 +85,8 @@ WHERE DATENAME(YEAR, [Invoice Date]) = 2020
 GROUP BY [City]
 ORDER BY SUM ([Total Sales]) DESC
 ```
+![Result Cap/C1A.PNG](https://github.com/24billys/Adidas-US-Sales/blob/main/Exploratory%20Data%20Analysis%20(SQL)/Result%20Cap/C1A.PNG)
+
 
 ```sql
 --2021
@@ -110,6 +115,8 @@ WHERE DATENAME(YEAR, [Invoice Date]) = 2021
 GROUP BY [City]
 ORDER BY SUM ([Total Sales]) DESC
 ```
+![Result Cap/C1B.PNG](https://github.com/24billys/Adidas-US-Sales/blob/main/Exploratory%20Data%20Analysis%20(SQL)/Result%20Cap/C1B.PNG)
+
 
 #### What Sales methods are the top 3 for sales?
 ```sql
@@ -129,6 +136,8 @@ WHERE DATENAME(YEAR, [Invoice Date]) = 2020
 GROUP BY [Sales Method]
 ORDER BY SUM ([Total Sales]) DESC
 ```
+![Result Cap/C2.PNG](https://github.com/24billys/Adidas-US-Sales/blob/main/Exploratory%20Data%20Analysis%20(SQL)/Result%20Cap/C2.PNG)
+
 
 ### Product Analysis
 
@@ -156,7 +165,7 @@ GROUP BY
 ORDER BY 
     [Year] ;
 ```
-
+![Result Cap/Product1.PNG](https://github.com/24billys/Adidas-US-Sales/blob/main/Exploratory%20Data%20Analysis%20(SQL)/Result%20Cap/Product1.PNG)
 
 #### Men’s or Female’s product is more popular?
 ```sql
@@ -181,7 +190,7 @@ GROUP BY
 ORDER BY 
     [Year] ;
 ```
-
+![Result Cap/Product2.PNG](https://github.com/24billys/Adidas-US-Sales/blob/main/Exploratory%20Data%20Analysis%20(SQL)/Result%20Cap/Product2.PNG)
 
 #### What are the average product ordered?
 
@@ -192,6 +201,7 @@ FROM dbo.Kaggle_Adidas_US_Sale
 GROUP BY DATENAME(YEAR, [Invoice Date])
 ORDER BY DATENAME(YEAR, [Invoice Date])
 ```
+![Result Cap/Product3.PNG](https://github.com/24billys/Adidas-US-Sales/blob/main/Exploratory%20Data%20Analysis%20(SQL)/Result%20Cap/Product3.PNG)
 
 ### Profitability Analysis
 
@@ -219,6 +229,8 @@ JOIN
     GROUP BY [Product]) AS t2
 ON t1.[Product] = t2.[Product];
 ```
+![Result Cap/Profit1A.PNG](https://github.com/24billys/Adidas-US-Sales/blob/main/Exploratory%20Data%20Analysis%20(SQL)/Result%20Cap/Profit1A.PNG)
+
 
 ##### By Categories (4 tables join)
 
@@ -333,7 +345,7 @@ JOIN(
 
 ON t3.[Categories] = t4.[Categories];
 ```
-
+![Result Cap/Profit1B.PNG](https://github.com/24billys/Adidas-US-Sales/blob/main/Exploratory%20Data%20Analysis%20(SQL)/Result%20Cap/Profit1B.PNG)
 
 
 
@@ -359,3 +371,4 @@ WHERE	DATENAME(YEAR, [Invoice Date]) = '2021'
 GROUP BY [Sales Method]
 ORDER BY [Sales Method]
 ```
+![Result Cap/Profit2.PNG](https://github.com/24billys/Adidas-US-Sales/blob/main/Exploratory%20Data%20Analysis%20(SQL)/Result%20Cap/Profit2.PNG)
