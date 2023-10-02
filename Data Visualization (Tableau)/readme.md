@@ -20,4 +20,4 @@
 
 #### Are there seasonal trends in sales (festival/ holiday)?
 
-#### How do seasonal trends affect various product categories? 
+
