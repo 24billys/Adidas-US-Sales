@@ -1,7 +1,80 @@
 # Exploratory Data Analysis (SQL)
 
 ## Data Pre-Proceessing
+Before any analysis, Data Cleaning and checking is madotary stage for ensuring the data is usable and the final result is more reliable and precise.
 
+The original dataset:
+![Ori](https://github.com/24billys/Adidas-US-Sales/blob/main/Exploratory%20Data%20Analysis%20(SQL)/Resource/Ori.PNG)
+
+### Delete the Null columns and rows
+
+```sql
+-- *********************
+-- Data Cleaning and checking
+-- *********************
+
+-- Delete the first two rows
+DELETE TOP(2) fROM dbo.Kaggle_Adidas_US_Sale
+
+-- Change the column name
+EXEC sp_rename 'dbo.Kaggle_Adidas_US_Sale.F1', 'Retailer', 'COLUMN';
+EXEC sp_rename 'dbo.Kaggle_Adidas_US_Sale.Adidas Sales Database', 'Retailer ID', 'COLUMN';
+EXEC sp_rename 'dbo.Kaggle_Adidas_US_Sale.F3', 'Invoice Date', 'COLUMN';
+EXEC sp_rename 'dbo.Kaggle_Adidas_US_Sale.F4', 'Region', 'COLUMN';
+EXEC sp_rename 'dbo.Kaggle_Adidas_US_Sale.F5', 'State', 'COLUMN';
+EXEC sp_rename 'dbo.Kaggle_Adidas_US_Sale.F6', 'City', 'COLUMN';
+EXEC sp_rename 'dbo.Kaggle_Adidas_US_Sale.F7', 'Product', 'COLUMN';
+EXEC sp_rename 'dbo.Kaggle_Adidas_US_Sale.F8', 'Price per Unit', 'COLUMN';
+EXEC sp_rename 'dbo.Kaggle_Adidas_US_Sale.F9', 'Units Sold', 'COLUMN';
+EXEC sp_rename 'dbo.Kaggle_Adidas_US_Sale.F10', 'Total Sales', 'COLUMN';
+EXEC sp_rename 'dbo.Kaggle_Adidas_US_Sale.F11', 'Operating Profit', 'COLUMN';
+EXEC sp_rename 'dbo.Kaggle_Adidas_US_Sale.F12', 'Operating Margin', 'COLUMN';
+EXEC sp_rename 'dbo.Kaggle_Adidas_US_Sale.F13', 'Sales Method', 'COLUMN'
+
+-- Delete the first row
+DELETE TOP(1) fROM dbo.Kaggle_Adidas_US_Sale
+```
+### Checking for Null item
+```sql
+-- COUNT NULL Data
+SELECT 
+    SUM(CASE WHEN [Retailer] IS NULL THEN 1 ELSE 0 END) AS Retailer_Null_Count,
+	SUM(CASE WHEN [Retailer ID] IS NULL THEN 1 ELSE 0 END) AS Retailer_ID_Null_Count,
+	SUM(CASE WHEN [Invoice Date] IS NULL THEN 1 ELSE 0 END) AS Invoice_Date_Null_Count,
+	SUM(CASE WHEN [Region] IS NULL THEN 1 ELSE 0 END) AS Region_Null_Count,
+    SUM(CASE WHEN [State] IS NULL THEN 1 ELSE 0 END) AS State_Null_Count,
+    SUM(CASE WHEN [City] IS NULL THEN 1 ELSE 0 END) AS City_Null_Count,
+    SUM(CASE WHEN [Product] IS NULL THEN 1 ELSE 0 END) AS Product_Null_Count,
+    SUM(CASE WHEN [Price per Unit] IS NULL THEN 1 ELSE 0 END) AS Price_per_Unit_Null_Count,
+    SUM(CASE WHEN [Units Sold] IS NULL THEN 1 ELSE 0 END) AS Units_Sold_Null_Count,
+    SUM(CASE WHEN [Total Sales] IS NULL THEN 1 ELSE 0 END) AS Total_Sales_Null_Count,
+    SUM(CASE WHEN [Operating Profit] IS NULL THEN 1 ELSE 0 END) AS Operating_Profit_Null_Count,
+    SUM(CASE WHEN [Operating Margin] IS NULL THEN 1 ELSE 0 END) AS Operating_Margin_Null_Count,
+    SUM(CASE WHEN [Sales Method] IS NULL THEN 1 ELSE 0 END) AS Sales_Method_Null_Count
+FROM dbo.Kaggle_Adidas_US_Sale
+```
+
+### Changing data types
+```sql
+-- Check data Type
+
+EXEC sp_help [dbo.Kaggle_Adidas_US_Sale]
+
+
+-- Change Data Type we need
+
+ALTER TABLE dbo.Kaggle_Adidas_US_Sale
+ALTER COLUMN [Units Sold] INT
+
+ALTER TABLE dbo.Kaggle_Adidas_US_Sale
+ALTER COLUMN [Retailer ID] INT
+
+ALTER TABLE dbo.Kaggle_Adidas_US_Sale
+ALTER COLUMN [Invoice Date] DATE
+```
+
+### Final Dataset Result
+![Final](https://github.com/24billys/Adidas-US-Sales/blob/main/Exploratory%20Data%20Analysis%20(SQL)/Resource/AFTER.PNG)
 ## Result
 
 ### Sales Analysis
