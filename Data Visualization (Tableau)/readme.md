@@ -1,7 +1,7 @@
 # Data Visualization (Tableau)
 The Data Visualization is presented by Tableau Public, click [here](https://public.tableau.com/views/AdidasUSSales_16959249584150/Dashboard1?:language=zh-TW&publish=yes&:display_count=n&:origin=viz_share_link) for the dashboard
 
-![Dashboard](https://github.com/24billys/Adidas-US-Sales/blob/main/Data%20Visualization%20(Tableau)/Dashboard.PNG)
+[![Dashboard](https://github.com/24billys/Adidas-US-Sales/blob/main/Data%20Visualization%20(Tableau)/Dashboard.PNG)](https://public.tableau.com/views/AdidasUSSales_16959249584150/Dashboard1?:language=zh-TW&publish=yes&:display_count=n&:origin=viz_share_link)
 ## Key Questions Explored
 
 ### Sales Analysis
