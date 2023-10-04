@@ -36,10 +36,15 @@ During the analysis, I sought answers to the following questions:
 ## Tools Used
 To perform this analysis, I utilized SQL for data manipulation and exploration, and Tableau for data visualization. These tools allowed me to efficiently analyze the dataset, discover meaningful insights, and present them visually for better understanding.
 
-Feel free to explore the analysis and the answers to the key questions I have addressed. I hope this project provides valuable insights into the sales performance and various aspects of Adidas products.
-
 
 ## EDA (SQL)
+
+The dataset is downloaded in excel format and put into <b>SQL Server Management Studio (SSMS)</b> for data cleaning and wragling which involved handling missing values, standardizing data formats.
+Here is the size of the dataset:
+
+![import count](https://github.com/24billys/Adidas-US-Sales/blob/main/import%20counts.PNG)
+
+For the full SQL EDA, please go to [Exploratory Data Analysis (SQL)](https://github.com/24billys/Adidas-US-Sales/tree/main/Exploratory%20Data%20Analysis%20(SQL))
 
 ## Data Visualizatioon (Tableau)
 
