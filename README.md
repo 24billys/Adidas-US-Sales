@@ -53,7 +53,7 @@ I used Tableau Public for my data visualization, feel free to enter [for more de
 ![Dashboard](https://github.com/24billys/Adidas-US-Sales/blob/main/Data%20Visualization%20(Tableau)/Dashboard.PNG)
 
 ## Key Findings and Limitation
-###Limitation
+### Limitation
  - Although this dataset included 2022 data, it shows only the fisrt and the secord of January 2022. It is not enough data for comparing with other year, so I ignored the 2022 data but still keep those data not deleting it.
 
 ### Key findings
