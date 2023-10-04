@@ -12,8 +12,7 @@ During the analysis, I sought answers to the following questions:
 
 ### Sales Analysis
  - What is the total revenue generated over the years? (SQL)
- - How does revenue vary by retailer over time? (Tableau)
- - What are the top 10 products over the years? (SQL)
+ - What are the top 5 products over the years? (SQL)
  - What is the average daily sales value by retailer? (SQL)
  - What is the peak sales period? (Tableau)
 
@@ -48,6 +47,26 @@ For the full SQL EDA, please go to [Exploratory Data Analysis (SQL)](https://git
 
 ## Data Visualizatioon (Tableau)
 
+Data visualization plays a crucial role in transforming complex datasets into easily understandable visual representations. With Tableau, a powerful data visualization tool, I created visually compelling and interactive dashboards for communicating my insight.
+
+I used Tableau Public for my data visualization, feel free to enter [for more details](https://github.com/24billys/Adidas-US-Sales/tree/main/Data%20Visualization%20(Tableau))
+![Dashboard](https://github.com/24billys/Adidas-US-Sales/blob/main/Data%20Visualization%20(Tableau)/Dashboard.PNG)
+
 ## Key Findings and Limitation
+###Limitation
+ - Although this dataset included 2022 data, it shows only the fisrt and the secord of January 2022. It is not enough data for comparing with other year, so I ignored the 2022 data but still keep those data not deleting it.
+
+### Key findings
+
+#### Sales Analysis
+ - The total revenue is increased from 182 million in 2020 to 717 million in 2021 which is increased significantly
+ - The ranking of top 5 product sold in 2020 is the same of product sold in 2021
+ - The sales perfomance of Walmart is the best, however Kohl's and Sports Direct performed not as good as 2020 compare with other retailers
+ - The peak Sale period is from Jun 2021 to Dec 2021
+
+#### Customer Analysis
+ - In both 2020 and 2021, West region had most sales generated. State and City was New York in 2020 and switched to California and Charleston in 2021
+ - In 2020 to 2021, Online shop sales has increased signicificatly. Maybe it dues to the covid breakout changed customers shopping method.
+
 
 ## Conclusion
