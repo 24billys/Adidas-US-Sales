@@ -68,5 +68,11 @@ I used Tableau Public for my data visualization, feel free to enter [for more de
  - In both 2020 and 2021, West region had most sales generated. State and City was New York in 2020 and switched to California and Charleston in 2021
  - In 2020 to 2021, Online shop sales has increased signicificatly. Maybe it dues to the covid breakout changed customers shopping method.
 
+#### Product Analysis
+ - Both Appeal abd Footware product sold in 2021 had increase over 3 times than 2020,the % of Footwear product has sightly higher than Appeal product
+ - IN 2020 total unit sold of women product is higher compared with men's product, however in 2021, men's product sold had a significatly increase and the total unit sold of men's product is higher than women's
+
+#### Profitability Analysis
+
 
 ## Conclusion
