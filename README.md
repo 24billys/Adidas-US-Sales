@@ -71,8 +71,19 @@ I used Tableau Public for my data visualization, feel free to enter [for more de
 #### Product Analysis
  - Both Appeal abd Footware product sold in 2021 had increase over 3 times than 2020,the % of Footwear product has sightly higher than Appeal product
  - IN 2020 total unit sold of women product is higher compared with men's product, however in 2021, men's product sold had a significatly increase and the total unit sold of men's product is higher than women's
+ - The 2020 total product sold are 3 times more than 2021
+#### Geographical Analysis
+
+ - In 2020 the sales are just include few cities in US, I cover most of the cities including Hawaii and Alaska
+   
+#### Seasonal Analysis
+
+ - There is no direct relationship between US holiday and sales, however there were still few holidays received a high sales quatity(i.e. 2020 Chrismas week)
 
 #### Profitability Analysis
-
+ - compare between 2020 and 2021, Men's Apparel, Men's Street Footwear and Women's Street Footwear got a decrease in operating margin, the other product got an increase in operating margin.
+ - Specific in Apparel product, men's operating margin was decreased over year and women's was increased from 2020 to 2021
+ - Specific in Footwear product, both men's and women's got an increase in operating margin from 2020 to 2021
+ - Online store remain the highest operating margin in both 2020 and 2021, Outlet store increased from 37% to 40%, In-store increased from 33% to 36%
 
 ## Conclusion
