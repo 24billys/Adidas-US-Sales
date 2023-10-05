@@ -205,7 +205,7 @@ ORDER BY SUM ([Total Sales]) DESC
 
 SELECT TOP 3 [Sales Method], SUM ([Total Sales]) AS [Total Sale]
 FROM dbo.Kaggle_Adidas_US_Sale
-WHERE DATENAME(YEAR, [Invoice Date]) = 2020
+WHERE DATENAME(YEAR, [Invoice Date]) = 2021
 GROUP BY [Sales Method]
 ORDER BY SUM ([Total Sales]) DESC
 ```
@@ -265,11 +265,11 @@ ORDER BY
 ```
 ![Result Cap/Product2.PNG](https://github.com/24billys/Adidas-US-Sales/blob/main/Exploratory%20Data%20Analysis%20(SQL)/Result%20Cap/Product2.PNG)
 
-#### What are the average product ordered?
+#### What are the daily product ordered?
 
 ```sql
 SELECT 
-DATENAME(YEAR, [Invoice Date]) AS [Year], AVG([Units Sold]) AS [Average Unit sold]
+DATENAME(YEAR, [Invoice Date]) AS [Year], SUM([Units Sold]) AS [Unit sold]
 FROM dbo.Kaggle_Adidas_US_Sale
 GROUP BY DATENAME(YEAR, [Invoice Date])
 ORDER BY DATENAME(YEAR, [Invoice Date])
