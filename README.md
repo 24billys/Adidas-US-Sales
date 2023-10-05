@@ -87,3 +87,4 @@ I used Tableau Public for my data visualization, feel free to enter [for more de
  - Online store remain the highest operating margin in both 2020 and 2021, Outlet store increased from 37% to 40%, In-store increased from 33% to 36%
 
 ## Conclusion
+The Key findings can give the stalkholder a clear and valuable insights about the sale performance and distribution on Adidas, for understanding the key product, target customers, key cities and the best selling method. It can lead adidas for increasing their sales and revenues, ultimately produce more profit for company development. However one thing to mention about this dataset, there is a quite large sales amount different between 2020 and 2021. We need to make sure that the data collection is valid and double check with the database we have got when it is in actual scenario.
