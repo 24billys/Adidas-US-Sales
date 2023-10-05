@@ -265,7 +265,7 @@ ORDER BY
 ```
 ![Result Cap/Product2.PNG](https://github.com/24billys/Adidas-US-Sales/blob/main/Exploratory%20Data%20Analysis%20(SQL)/Result%20Cap/Product2.PNG)
 
-#### What are the daily product ordered?
+#### What are the yearly product ordered?
 
 ```sql
 SELECT 
