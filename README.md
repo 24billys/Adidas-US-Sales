@@ -2,14 +2,14 @@
 Welcome to my Adidas Sales Dataset Analysis project! In this project, I have delved into a comprehensive dataset of Adidas sales, downloaded from Kaggle. The dataset encompasses various aspects of the sales, including revenue, product details, customer information, geographical data, and profitability.
 
 # Table of content
- - [Objective]([Adidas-US-Sales/tree/main#objective](https://github.com/24billys/Adidas-US-Sales/tree/main#objective))
- - [Dataset](main#Dataset)
- - [Key Questions Explored](main#Key_Questions_Explored)
- - [Tools Used](main#Tools_Used)
- - [EDA (SQL)](main#EDA_(SQL))
- - [Data Visualizatioon (Tableau)](main#Data_Visualizatioon_(Tableau))
- - [Key Findings and Limitation](main#Key_Findings_and_Limitation)
- - [Conclusion](main#Conclusion)
+ - [Objective](https://github.com/24billys/Adidas-US-Sales/tree/main#objective)
+ - [Dataset](https://github.com/24billys/Adidas-US-Sales/tree/main#Dataset)
+ - [Key Questions Explored](https://github.com/24billys/Adidas-US-Sales/tree/main#Key_Questions_Explored)
+ - [Tools Used](https://github.com/24billys/Adidas-US-Sales/tree/main#Tools_Used)
+ - [EDA (SQL)](https://github.com/24billys/Adidas-US-Sales/tree/main#EDA_(SQL))
+ - [Data Visualizatioon (Tableau)](https://github.com/24billys/Adidas-US-Sales/tree/main#Data_Visualizatioon_(Tableau))
+ - [Key Findings and Limitation](https://github.com/24billys/Adidas-US-Sales/tree/main#Key_Findings_and_Limitation)
+ - [Conclusion](https://github.com/24billys/Adidas-US-Sales/tree/main#Conclusion)
 
 
 
