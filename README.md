@@ -1,6 +1,18 @@
 # Adidas Sales Dataset Analysis
 Welcome to my Adidas Sales Dataset Analysis project! In this project, I have delved into a comprehensive dataset of Adidas sales, downloaded from Kaggle. The dataset encompasses various aspects of the sales, including revenue, product details, customer information, geographical data, and profitability.
 
+# Table of content
+ - [Objective](main#Objective)
+ - [Dataset](main#Dataset)
+ - [Key Questions Explored](main#Key_Questions_Explored)
+ - [Tools Used](main#Tools_Used)
+ - [EDA (SQL)](main#EDA_(SQL))
+ - [Data Visualizatioon (Tableau)](main#Data_Visualizatioon_(Tableau))
+ - [Key Findings and Limitation](main#Key_Findings_and_Limitation)
+ - [Conclusion](main#Conclusion)
+
+
+
 ## Objective
 The primary objective of this analysis is to gain insights into the sales performance, customer behavior, product popularity, geographical trends, seasonal patterns, and profitability of Adidas products. By utilizing SQL for data manipulation and Tableau for data visualization, I have explored the dataset to answer a series of key questions.
 
