@@ -4,11 +4,11 @@ Welcome to my Adidas Sales Dataset Analysis project! In this project, I have del
 # Table of content
  - [Objective](https://github.com/24billys/Adidas-US-Sales/tree/main#objective)
  - [Dataset](https://github.com/24billys/Adidas-US-Sales/tree/main#Dataset)
- - [Key Questions Explored](https://github.com/24billys/Adidas-US-Sales/tree/main#Key_Questions_Explored)
- - [Tools Used](https://github.com/24billys/Adidas-US-Sales/tree/main#Tools_Used)
- - [EDA (SQL)](https://github.com/24billys/Adidas-US-Sales/tree/main#EDA_(SQL))
- - [Data Visualizatioon (Tableau)](https://github.com/24billys/Adidas-US-Sales/tree/main#Data_Visualizatioon_(Tableau))
- - [Key Findings and Limitation](https://github.com/24billys/Adidas-US-Sales/tree/main#Key_Findings_and_Limitation)
+ - [Key Questions Explored](https://github.com/24billys/Adidas-US-Sales/tree/main#Key-Questions-Explored)
+ - [Tools Used](https://github.com/24billys/Adidas-US-Sales/tree/main#Tools-Used)
+ - [EDA (SQL)](https://github.com/24billys/Adidas-US-Sales/tree/main#eda-sql)
+ - [Data Visualizatioon (Tableau)](https://github.com/24billys/Adidas-US-Sales/tree/main#data-visualizatioon-tableau)
+ - [Key Findings and Limitation](https://github.com/24billys/Adidas-US-Sales/tree/main#Key-Findings-and-Limitation)
  - [Conclusion](https://github.com/24billys/Adidas-US-Sales/tree/main#Conclusion)
 
 
