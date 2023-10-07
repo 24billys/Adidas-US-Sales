@@ -2,7 +2,7 @@
 Welcome to my Adidas Sales Dataset Analysis project! In this project, I have delved into a comprehensive dataset of Adidas sales, downloaded from Kaggle. The dataset encompasses various aspects of the sales, including revenue, product details, customer information, geographical data, and profitability.
 
 # Table of content
- - [Objective](tree/main#Objective)
+ - [Objective](Adidas-US-Sales/tree/main#objective)
  - [Dataset](main#Dataset)
  - [Key Questions Explored](main#Key_Questions_Explored)
  - [Tools Used](main#Tools_Used)
